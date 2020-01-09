@@ -1,12 +1,8 @@
 ﻿using System;
-using operations;
+
 namespace BasicCalculator
 {
-    public class Calculator
+    public class IBasicCalculator
     {
-        public int AddTest(int a, int b)
-        {
-            return Addition.Sum(a, b);
-        }
     }
 }

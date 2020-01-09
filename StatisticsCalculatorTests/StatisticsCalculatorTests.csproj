@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BasicCalculator\BasicCalculator.csproj" />
+    <ProjectReference Include="..\StatisticsCalculator\StatisticsCalculator.csproj" />
   </ItemGroup>
 
 </Project>

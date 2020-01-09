@@ -5,10 +5,10 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace BasicCalculator.Tests
-{ 
+{
     [TestClass()]
     public class CalculatorTests
-    { 
+    {
         [TestMethod()]
         public void AddTest()
         {
@@ -30,7 +30,7 @@ namespace BasicCalculator.Tests
             Assert.AreEqual(2, c);
             Assert.AreEqual(2, calculator.result);
 
-    }
+        }
 
         [TestMethod()]
         public void DivideIntDivideZeroTest()
@@ -38,6 +38,18 @@ namespace BasicCalculator.Tests
             Calculator calculator = new Calculator();
 
             Assert.ThrowsException<DivideByZeroException>(() => calculator.Divide(2, 0));
+        }
+
+        [TestMethod()]
+        public void AddTest1()
+        {
+            Assert.Fail();
+        }
+
+        [TestMethod()]
+        public void DivideTest1()
+        {
+            Assert.Fail();
         }
     }
 
